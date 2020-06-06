@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/DiffClassFunction/node_modules
+/DiffClassFunction/.pnp
+/DiffClassFunction/.pnp.js
+
+# testing
+/DiffClassFunction/coverage
+
+# production
+/DiffClassFunction/build
+
+# misc
+/DiffClassFunction/.DS_Store
+/DiffClassFunction/.env.local
+/DiffClassFunction/.env.development.local
+/DiffClassFunction/.env.test.local
+/DiffClassFunction/.env.production.local
+
+/DiffClassFunction/npm-debug.log*
+/DiffClassFunction/yarn-debug.log*
+/DiffClassFunction/yarn-error.log*
