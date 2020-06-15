@@ -1,26 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Counter from "./Counter";
+import Info from "./Info";
+import { useState } from "react";
+import CountReducer from "./CountReducer";
+import InfoReducer from "./InfoReducer";
+import Average from "./Average";
+import AverageUseCallBack from "./AverageUseCallBack";
+import AverageUseRef from "./AverageUseRef";
+import InfoReducerCustom from "./InfoReducerCustom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+  return <InfoReducerCustom />;
+};
 
 export default App;
